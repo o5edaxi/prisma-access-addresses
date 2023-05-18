@@ -1,6 +1,6 @@
 # Palo Alto Prisma Access Egress IP Retriever
 
-Retrieves various endpoints of a Prisma Access tenant using its [API]([https://docs.paloaltonetworks.com/panorama/10-2/panorama-admin/manage-firewalls/manage-templates-and-template-stacks/override-a-template-setting](https://docs.paloaltonetworks.com/prisma/prisma-access/prisma-access-panorama-admin/prisma-access-overview/retrieve-ip-addresses-for-prisma-access)).
+Retrieves various endpoints of a Prisma Access tenant using its [API](https://docs.paloaltonetworks.com/prisma/prisma-access/prisma-access-panorama-admin/prisma-access-overview/retrieve-ip-addresses-for-prisma-access).
 
 ### Usage
 
