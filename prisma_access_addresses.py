@@ -8,10 +8,10 @@ CONN_TIMEOUT = 10
 
 if __name__ == '__main__':
     print('Select service type (all | remote_network | gp_gateway | gp_portal | clean_pipe | '
-          'swg_proxy')
+          'swg_proxy)')
     SERVICE_TYPE = input()
     print('Select address type (all | active | service_ip | auth_cache_service | '
-          'network_load_balancer')
+          'network_load_balancer)')
     ADDRESS_TYPE = input()
     print('Select location (all | deployed)')
     LOCATION = input()
