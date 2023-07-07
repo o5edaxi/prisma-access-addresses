@@ -11,7 +11,7 @@ usage: prisma_ip_to_edl.py [-h] [-s SERVICE_TYPE] [-a ADDRESS_TYPE] [-l LOCATION
                            [-x {DEBUG,INFO,WARNING,ERROR,CRITICAL}]
                            output
 
-Print Prisma Access endpoints of tenant in IP list format
+Output Prisma Access endpoints of tenant in IP list format
 
 positional arguments:
   output                Output file name
