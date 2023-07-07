@@ -12,7 +12,7 @@ API_ENDPOINT_2 = 'https://api.prod6.datapath.prismaaccess.com/getPrismaAccessIP/
 CONN_TIMEOUT = 10
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Print Prisma Access endpoints of tenant in IP list format')
+    parser = argparse.ArgumentParser(description='Output Prisma Access endpoints of tenant in IP list format')
     parser.add_argument('output', type=str, help='Output file name')
     parser.add_argument('-s', '--service-type', action='store', type=str, help='Service type can be one of (all | '
                                                                                'remote_network | gp_gateway | '
