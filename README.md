@@ -4,6 +4,8 @@ Retrieves various endpoints of a Prisma Access tenant using its [API](https://do
 
 ### Usage
 
+Run the script as a scheduled task or cron job to create the text file containing the addresses, as well as additional details such as region and creation time. Publish the text file using a webserver and consume the list with a firewall to ease the maintenance of a Prisma Access deployment.
+
 ```
 usage: prisma_ip_to_edl.py [-h] [-s SERVICE_TYPE] [-a ADDRESS_TYPE] [-l LOCATION] [-k KEY] [-c KEY_FILE] [-n] [-2]
                            [-x {DEBUG,INFO,WARNING,ERROR,CRITICAL}]
